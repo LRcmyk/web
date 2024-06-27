@@ -45,7 +45,7 @@
     font-weight: bold;
     font-size: 20px;
     color: black;
-    animation: personal linear 10s;
+    animation: personal linear 5s;
 }
 @keyframes personal {
 0% { background-color:#FFFFFF;}
