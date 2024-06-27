@@ -48,10 +48,8 @@
     animation: personal linear 10s;
 }
 @keyframes personal {
-    0% {transform: translateY(0);}
-    25% {transform: translateY(20px);}
-    50% {transform: translateY(-20px);}
-    100%{transform: translateY(0);}
+0% { background-color:#FFFFFF;}
+    100% {background-color:#60e4F1}
 }
 #contacto {
     background-color:  white;
