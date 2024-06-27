@@ -93,9 +93,11 @@
     background-color: #FEECD6;
     font-size: 30px; 
     position: absolute;
-    left: 500px;
+    left: 465px;
     top: 250px;
     padding: 20px;
+    padding-left: 50px;
+    z-index: -10;
 }
 #IMGP2 {
     padding: 20px;
