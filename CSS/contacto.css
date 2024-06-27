@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url('../Fonts/mvboli.ttf') format('truetype');
+}
+
+#menu {
+    background-color: #22B573;
+    padding: 80px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+}
+#inicio {
+    background-color:  white;
+ padding: 10px 30px;
+    
+    position: absolute;
+    top: 60px;
+    left: 920px;
+    border-radius: 30px;
+    font-family: 'MiFuente';
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+#servicios {
+    background-color:  white;
+    padding: 10px 30px;
+    position: absolute;
+    top: 60px;
+    left: 1050px;
+    border-radius: 30px;
+    font-family: 'MiFuente';
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+#personal {
+    background-color:  white;
+    padding: 10px 30px;
+    position: absolute;
+    top: 60px;
+    left: 1230px;
+    border-radius: 30px;
+    font-family: 'MiFuente';
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+#contacto {
+    background-color:  #60E4F1;
+    padding: 10px 30px;
+    position: absolute;
+    top: 60px;
+    left: 1410px;
+    border-radius: 30px;
+    font-family: 'MiFuente';
+    font-weight: bold; 
+    font-size: 20px;
+    color: black; 
+    animation: contacto linear 2s;
+}
+@keyframes contacto {
+    0% {background-color:white;}
+    100% {background-color: #60E4F1;}
+}
+#testimonios {
+    background-color:  white;
+    padding: 10px 30px;
+    position: absolute;
+    top: 60px;
+    left: 1590px;
+    border-radius: 30px;
+    font-family: 'MiFuente';
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+#logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+#IMG2 {
+    margin-left: 300px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+#cuadrado {
+    padding:  230px 380px;
+    background-color: #60E4F1;
+    position: absolute;
+    top: 260px;
+    left: 800px;
+    z-index: index -100;
+}
+div {
+    font-family: 'MiFuente';
+}
+#C1 {
+    font-size: 23px;
+    position: absolute;
+    top: 270px;
+    left: 830px ;
+    z-index: 10;
+}
+#C2 {
+    font-size: 18px;
+    position: absolute;
+    top: 310px;
+    left: 830px ;
+    z-index: 10;
+}
+#N{
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 410px;
+    left: 830px;
+}
+#nombre{
+    position: absolute;
+    top: 440px;
+    left: 830px;
+    width: 700px;
+}
+#N1{
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 460px;
+    left: 830px;
+}
+#numero{
+    position: absolute;
+    top: 490px;
+    left: 830px;
+    width: 700px;
+}
+#E{
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 510px;
+    left: 830px;
+}
+#email {
+        position: absolute;
+        top: 540px;
+        left: 830px;
+        width: 700px;
+    }
+#Enviar{
+    padding: 10px 30px;
+    font-family: 'MiFuente';
+    border: none;
+    position: absolute;
+    top: 660px;
+    left: 1150px;
+    font-weight: bold;
+}
+footer {
+    margin-top: 50px;
+    background-color: #22B573;
+    padding: 50px;
+    text-align: center;
+    font-family:'MiFuente';
+    font-weight: bold;
+}
